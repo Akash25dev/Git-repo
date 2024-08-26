@@ -6,7 +6,7 @@ pipeline{
                      git 'https://github.com/Akash25dev/Git-repo.git'
                  }
              }
-             stage(build with mvn){
+             stage(build mvn){
                  steps{
                      sh 'mvn install'
                  }
